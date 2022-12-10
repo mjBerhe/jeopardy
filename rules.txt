@@ -1,0 +1,17 @@
+RULES
+
+- 6 categories
+- 5 questions per category
+
+- everyone is split into 2 even teams
+- each question has a money value and a drink value
+- if the team answers the question correct, they gain the money
+- if wrong, they can either take the loss of money, or take the drink value
+
+ANSWERING A QUESTION
+- first person to raise their hand answers the question
+- ?? if team gets it wrong, other team gets a chance to answer the question
+
+TOPICS
+- famous people that start with Y
+- ?? short people or short something
