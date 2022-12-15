@@ -9,7 +9,6 @@ type ActiveQuestionCard = {
   completeQuestion: (question: SingleQuestion, topic: string) => void;
 };
 
-const audioDD = new Audio("/sounds/daily-double.mp3");
 const buttonClass =
   "flex justify-start rounded-lg border bg-gray-700 px-4 py-2";
 
@@ -27,9 +26,11 @@ export const ActiveQuestionCard: React.FC<ActiveQuestionCard> = (props) => {
     setActive(false);
   };
 
+  const audio: HTMLAudioElement = new Audio("/sounds/daily-double.mp3");
+
   useEffect(() => {
-    if (isDaily) {
-      audioDD.play();
+    if (isDaily && audio) {
+      audio.play();
     }
   }, [isDaily]);
 
