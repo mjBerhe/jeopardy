@@ -12,6 +12,7 @@ export const QuestionCard: React.FC<QuestionCard> = (props) => {
   const {
     name,
     value,
+    drink,
     topic,
     isComplete,
     isDailyDouble,
@@ -41,10 +42,13 @@ export const QuestionCard: React.FC<QuestionCard> = (props) => {
           onClick={handleActive}
           className={classNames(
             className,
-            "text-shadow-md flex h-full cursor-pointer items-center justify-center border-2 border-black text-[70px] font-bold text-[#d69f4c]"
+            "flex h-full cursor-pointer flex-col items-center justify-center border-2 border-black"
           )}
         >
-          {value}
+          <span className="text-shadow-md my-4 text-[70px] font-bold leading-[70px] text-[#d69f4c]">
+            {value}
+          </span>
+          <span className="text-shadow text-[20px] text-white">{drink}</span>
         </div>
       )}
     </>
