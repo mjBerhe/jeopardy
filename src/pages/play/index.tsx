@@ -11,6 +11,8 @@ export type SingleQuestion = {
   value?: string;
   drink?: string;
   isComplete?: boolean;
+  isGame?: boolean;
+  isGTG?: boolean;
   isDailyDouble?: boolean;
 };
 
@@ -25,26 +27,26 @@ const topics: Question[] = [
     questions: [
       { name: "STARTS WITH Y" },
       {
-        name: "Found on the web. Not for sharing pictures, but something similar.",
+        name: "Found on the web. Not for sharing pictures, but something similar",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "A larger boat, and better looking. Used for pleasure, cruising or racing.",
+        name: "A larger boat, and better looking. Used for pleasure, cruising or racing",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "Guess the Guess",
+        name: "GUESS THE GUESS",
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
-        isDailyDouble: true,
+        isGTG: true,
       },
       {
-        name: "Japanese for 'grilled chicken'. Easy to hold, better to eat.",
+        name: "Japanese for 'grilled chicken'. Easy to hold, better to eat",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
@@ -54,39 +56,40 @@ const topics: Question[] = [
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
+        isGame: true,
       },
     ],
   },
   {
     topic: "TOPIC 2",
     questions: [
-      { name: "24" },
+      { name: "I CAN'T SEE" },
       {
-        name: "24 seconds is the time a team may posses the ball before attempting to score in this sport",
+        name: "Throwing this object was added to the Ancient Olympic Games in 708BC, with a world record distance throw of 323ft",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "If 24 hours makes up a day, this amount of hours makes up a week",
+        name: "GAME TIME",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "Avacodos, rice, and grasshoppers all have 24 of these thread-like structures",
+        name: "A narrow, connecting part of some tools, it's also prison slang for a knifelike weapon",
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "This 24 faced, 4 dimensional cube has been used in popular films such as Interstellar and the MCU",
+        name: "GUESS THE GUESS",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: "This two player board game has players starting at the 24-point position",
+        name: "Similar to thor and his hammer, King Arthur was able to grab this type of weapon",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -96,33 +99,33 @@ const topics: Question[] = [
   {
     topic: "TOPIC 3",
     questions: [
-      { name: "6 LETTER WORDS" },
+      { name: "SCRABBLE WORDS" },
       {
-        name: `From old French meaning "to dine", it's the chief meal of the day`,
+        name: `4 letter word for a short test (22 POINTS)`,
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "It's the club-shaped tool used to pound substances in a mortar",
+        name: "GAME TIME",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: `To rot, or the uncle on "The Addams Family"`,
+        name: `AKA a pancake or hotcake (26 POINTS)`,
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "This lighter-than-air element only rose to #2 on the periodic chart",
+        name: "GUESS THE GUESS",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: "This disease caused by a lack of vitamin C is characterized by bleeding gums & extreme weakness",
+        name: "8 letter word meaning to make as large or great as possible (28 POINTS)",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -132,34 +135,33 @@ const topics: Question[] = [
   {
     topic: "TOPIC 4",
     questions: [
-      { name: "WORDS IN BIRTHDAY" },
+      { name: "WORDS IN QUARTER" },
       {
-        name: "opposite of messy",
+        name: "GAME TIME",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "cows, buffaloes, goats, sheeps and camels all provide this",
+        name: "You might see one of these munching on a pizza in the streets of new york city",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "where my deepest darkest secrets lie",
+        name: "Not occuring very often",
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "a lot of head",
+        name: "GUESS THE GUESS",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
-        isDailyDouble: true,
       },
       {
-        name: "a mix of two",
+        name: "Alternative name for Earth",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -169,33 +171,33 @@ const topics: Question[] = [
   {
     topic: "TOPIC 5",
     questions: [
-      { name: "MOVIE TITLE MATH" },
+      { name: "25 RHYMES" },
       {
-        name: "The _ year-old-virgin minus fantastic _",
+        name: "honeycomb home",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "The magnificent _ plus _ mile",
+        name: "herb with mild onion flavor",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "_ shades of grey minus _ years a slave",
+        name: "GUESS THE GUESS",
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "Both in 2012: the _ stooges times _ jump street",
+        name: "to grow vigorous & healthy",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: "_ first dates times this is _",
+        name: "GAME TIME",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,

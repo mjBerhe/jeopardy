@@ -14,7 +14,8 @@ const buttonClass =
 
 export const ActiveQuestionCard: React.FC<ActiveQuestionCard> = (props) => {
   const { question, topic, setActive, completeQuestion } = props;
-  const { name, value, isComplete, isDailyDouble } = question || {};
+  const { name, value, isComplete, isDailyDouble, isGTG, isGame } =
+    question || {};
   const [isDaily, setIsDaily] = useState<boolean>(isDailyDouble ?? false);
 
   const handleBack = () => {
@@ -36,13 +37,15 @@ export const ActiveQuestionCard: React.FC<ActiveQuestionCard> = (props) => {
 
   return (
     <div className="flex h-full w-full flex-col">
-      {isDaily && (
+      {isDaily ? (
         <div className="" onClick={() => setIsDaily(false)}>
           <Image src="/DailyDouble.jpg" alt="daily double pic" fill />
         </div>
-      )}
-
-      {!isDaily && (
+      ) : isGTG ? (
+        <div>GUESS THE GUESS!</div>
+      ) : isGame ? (
+        <div>GAME TIME!</div>
+      ) : (
         <>
           <div className="absolute flex space-x-2 p-2">
             <button onClick={handleBack} className={buttonClass}>

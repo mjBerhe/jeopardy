@@ -35,9 +35,9 @@ const Home: NextPage = () => {
               <button onClick={() => audio?.pause()}>Pause</button>
             </div>
             <div className="flex space-x-8">
-              <Link href="/rules" className={buttonClass}>
+              {/* <Link href="/rules" className={buttonClass}>
                 Rules
-              </Link>
+              </Link> */}
 
               <Link href="/play" className={buttonClass}>
                 Play
