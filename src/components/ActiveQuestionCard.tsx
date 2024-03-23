@@ -56,7 +56,7 @@ export const ActiveQuestionCard: React.FC<ActiveQuestionCard> = (props) => {
             </button>
           </div>
           <div className="flex h-full w-full items-center justify-center">
-            <span className="text-shadow-md text-center text-[70px] font-bold tracking-wider">
+            <span className="text-shadow-md whitespace-pre-line text-center text-[70px] font-bold tracking-wider">
               {name?.toUpperCase()}
             </span>
           </div>

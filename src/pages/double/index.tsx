@@ -25,33 +25,33 @@ const topics: Question[] = [
   {
     topic: "TOPIC 1",
     questions: [
-      { name: "MIKEE CATCHES FLIGHTS, NOT FEELINGS" },
+      { name: "TIME TO RHYME" },
       {
-        name: "Of all the players in tonight’s Trivia, this person is who Mikee has travelled with the most",
+        name: "This item has been frequently lost or misplaced over the years",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "This country hosts most of Mikee’s situationships and/or flings \n\n Hungary \n USA \n France \n Germany",
+        name: "This term, while commonly associated with food, is what Mikee uses to describe a situation or piece of gossip that is particularly sensational or scandalous",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "This is where Mikee studied during her Study Abroad program",
+        name: "This big-haired fantasy character is known for her intelligence and quick wit, especially when it comes to creating new spells",
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "When Mikee travels, she has an extra eye mask that she stores in her bag which she originally received as a giveaway from this airline: \n\n eva air \n british airways \n american airlines \n ryan air",
+        name: "Some think physical exercise and a spiritual experience at the same time. But Mikee thinks summertime at Trinity Bellwoods",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: "This asian country is where 6 year old mikee peed inside a gondola because she refused to go to the washroom when her mom told her to",
+        name: "It is personal and confidential. It is thoughts and observations. It is also a song that peaked at number eight on the Billboard Hot 100",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -61,33 +61,33 @@ const topics: Question[] = [
   {
     topic: "TOPIC 2",
     questions: [
-      { name: "JUST A HOBBY HOE" },
+      { name: "NOW PLAYING" },
       {
-        name: "This hobby comes with an alter ego",
+        name: "This one has a boy with the bread",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "Mikee returned to this hobby during her time in PEI",
+        name: "This character was an ice princess before finding Jesus at some point in the series",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "This is a hobby Mikee started but never finished",
+        name: "A bean or an old lady losing their memory",
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "These two hobbies are regular posts on Mikee’s Instagram Explore page \n\n Dancing and Cooking \n Gym and Skincare \n Painting and Crochet \n Pottery and Astrology",
+        name: "This childhood icon went to italy, found her doppelgänger and exposed a fake artist for who he was",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: "Mikee wants to start this hobby but can’t afford it right now \n\n Collecting stamps \n Pole dancing \n Auto shop \n Massage therapy",
+        name: "It’s found on Disney+ but spelled differently could be YouTube’s greatest content creator",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -97,33 +97,33 @@ const topics: Question[] = [
   {
     topic: "TOPIC 3",
     questions: [
-      { name: "MARCH MADNESS" },
+      { name: "TRUE OR FALSE" },
       {
-        name: `Mikee used to write this at the top of every test throughout her whole academic career`,
+        name: `Mikee once interviewed a psychotherapist for a story and got therapized on the call`,
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "This singer and actress rose to fame in the late ‘90s before blowing up once more in a hit TV series that emotionally manipulated Mikee and many others",
+        name: "Luna is a Leo",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: `This show stars a lead actor with a last name that is related to what you would see at a deli`,
+        name: `Mikee got so drunk on PEI, she thought she was petting a dog when in fact it was actually a fox`,
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "This 50 Cent song is what Mikee hoped to sing had she attended his final concert in Toronto",
+        name: "Mikee has worked in at least 10 different Starbucks locations",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: "According to Mikee: emotional intelligence, broad shoulders, hilarity and friendliness are all attributes for this kind of person",
+        name: "Mikee applied as a background actor in CBC’s Kim's Convenience",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -133,33 +133,33 @@ const topics: Question[] = [
   {
     topic: "TOPIC 4",
     questions: [
-      { name: "FACT CHECK" },
+      { name: "MI-KEY DATES" },
       {
-        name: "This state is currently under the occupation of an oppressive and discriminatory system that refuses to recognise the rights and freedoms of those who call the land their home",
+        name: "This is the full government name of Mikee’s child, born in 2016",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "This actress starred in Mikee’s favourite romantic comedy and has also appeared in two separate films with Tom Hanks",
+        name: "This year was the first time Mikee began to commute on the TTC alone for longer than 30 mins",
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "This cosmetic surgery can also be done through injections",
+        name: "This was the year Mikee worked for a radio show and got to text George Stromboulopoulos",
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "The Barzini meeting, watch for the traitors” is a Jay-Z line referencing this classic gangster film that features Al Pacino",
+        name: "This famous wrestler followed Mikee on Twitter shortly after being verified in 2021",
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: "This word is what Mikee used to misspell regularly in elementary school: \n\n Wensday \n Exellent \n Brocolli \n Catastrofee",
+        name: "Mikee made it to the regionals in Grade 4 for this sport",
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -169,70 +169,69 @@ const topics: Question[] = [
   {
     topic: "TOPIC 5",
     questions: [
-      { name: "MIKE-ARAOKE JAMS" },
+      { name: "DOUBLE E FOR MIKEE" },
       {
-        name: "Fill in the blanks to this song: “Put your faith in what you most believe in. Two worlds, ___ ___",
+        name: "This currency will bring you everywhere in india",
         value: "$200",
+        drink: "10 Shots",
+        isComplete: false,
+      },
+      {
+        name: "This is Mikee’s favourite discount",
+        value: "$400",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: "This Disney sibling duo is so annoying, they’re the furthest from what you’re looking for",
-        value: "$400",
+        name: "When you first hear it, it sounds like a yell, but when you see what’s actually happened, you realise her nose was just itchy",
+        value: "$600",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: "Hailey Baldwin wouldn’t be married if this singer didn’t make her husband famous",
-        value: "$600",
+        name: "This exclamatory phrase, often used to stop someone in their tracks, is also known as a common dance move used in street styles such as breaking",
+        value: "$800",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: "Twenty years later, this misunderstood artist still wears crop tops and has a discography that still makes the rounds in Mikee’s monthly playlists",
-        value: "$800",
-        drink: "8 Shots",
-        isComplete: false,
-      },
-      {
-        name: "Finish the lyrics: “Bittersweet memories. That is all I’m taking with me. So _________",
+        name: "This standard division of time is not based on any celestial cycles but has been used since ancient times for its convenience in social organization",
         value: "$1000",
-        drink: "10 Shots",
+        drink: "8 Shots",
         isComplete: false,
       },
     ],
   },
-
   {
     topic: "TOPIC 6",
     questions: [
-      { name: "MIKEE-ISMS" },
+      { name: "MIKEELICIOUS" },
       {
-        name: "This adjective describes the state of being ill or unwell, but in modern slang, it's also used to express admiration, as in something that is impressively cool or great",
+        name: "Mikee often forgets food in this common kitchen appliance resulting in SAD cold dinner",
         value: "$200",
         drink: "2 Shots",
         isComplete: false,
       },
       {
-        name: `This phrase is said in the middle of a laughing fit, but not a joyous statement when taken literally`,
+        name: `This Canadian ice cream chain was found in PEI`,
         value: "$400",
         drink: "4 Shots",
         isComplete: false,
       },
       {
-        name: `If someone’s not a bro and they’re not a man, then they must be a ____`,
+        name: `It’s green, fermented, and never in Mikee’s burgers`,
         value: "$600",
         drink: "6 Shots",
         isComplete: false,
       },
       {
-        name: `It’s the opposite of speak but somehow Mikee usually starts her long tirades with this word`,
+        name: `This tropical fruit may or may not have caused Mikee’s allergic reaction`,
         value: "$800",
         drink: "8 Shots",
         isComplete: false,
       },
       {
-        name: `Once, a greeting. Twice, a toy`,
+        name: `This appliance is used when Mikee is too lazy to cook but still wants people to compliment her on her food`,
         value: "$1000",
         drink: "10 Shots",
         isComplete: false,
@@ -241,7 +240,7 @@ const topics: Question[] = [
   },
 ];
 
-const Home: NextPage = () => {
+const Double: NextPage = () => {
   const [isQuestion, setIsQuestion] = useState<boolean>(false);
   const [currentQuestion, setCurrentQuestion] = useState<SingleQuestion | null>(
     null
@@ -318,4 +317,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Double;
