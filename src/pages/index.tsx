@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <div className="mx-auto flex h-screen w-full max-w-7xl flex-col">
           <div className="flex h-full w-full flex-col items-center justify-center space-y-8">
             <h1 className="text-shadow-md text-center text-[150px] font-bold leading-[150px]">
-              JEOPARDY
+              MIKEE-OPARDY
             </h1>
             <div className="flex space-x-4">
               <button onClick={() => audio?.play()}>Play</button>
